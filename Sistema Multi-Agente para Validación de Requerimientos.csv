@@ -1,0 +1,23 @@
+ID,Name,Begin date,End date,Duration,Completion,Cost,Priority,Coordinator,Predecessors,Outline number,Resources,Assignments,Task color,Notes,Web Link
+1,1.1 Gestión del Proyecto,4/6/26,4/15/26,8,0,0.0,1,,,1,Luis Gerardo,0:100.00,"#000000",,
+2,"  1.1.1 Acta de Constitución (Project Charter)",4/6/26,4/8/26,3,0,0,1,,,1.1,,,,,
+9,"  Inicio del Proyecto",4/9/26,4/9/26,0,0,0,1,,2,1.2,,,"#000000",,
+3,"  1.1.2 Plan de Trabajo y Cronograma",4/9/26,4/15/26,5,0,0,1,,,1.3,,,,,
+5,1.2 Diagnóstico (As-Is),4/16/26,5/19/26,24,0,0,1,,9,2,,,"#000000",,
+7,"  1.2.1 Análisis de procesos actuales en PODs",4/16/26,5/7/26,16,0,0,1,,3,2.1,,,,,
+8,"  1.2.2 Informe de deficiencias y áreas de oportunidad",5/8/26,5/19/26,8,0,0,1,,7,2.2,,,,,
+10,"  Diagnóstico Finalizado",5/20/26,5/20/26,0,0,0,1,,8,2.3,,,"#000000",,
+11,1.3 Diseño de la Solución (To-Be),5/20/26,7/2/26,32,0,0,1,,10,3,,,"#000000",,
+12,"  1.3.1 Arquitectura de Agentes y Orquestación",5/20/26,6/11/26,17,0,0,1,,8,3.1,,,,,
+13,"  1.3.2 Ingeniería de Prompts basados en ISO 29148",5/20/26,6/19/26,23,0,0,1,,8,3.2,,,,,
+14,"  Diseño completado",7/3/26,7/3/26,0,0,0,1,,15,3.3,,,"#000000",,
+15,"  1.3.3 Diseño de Instrumentos de Validación",6/22/26,7/2/26,9,0,0,1,,12;13,3.4,,,,,
+16,1.4 Validación y Cierre,7/3/26,9/11/26,51,0,0,1,,14,4,,,"#000000",,
+17,"  1.4.1 Aplicación de Juicio de Expertos al diseño",7/3/26,7/27/26,17,0,0,1,,15,4.1,,,,,
+18,"  1.4.2 Análisis de resultados y ajustes al diseño",7/28/26,8/11/26,11,0,0,1,,17,4.2,,,,,
+19,"  1.4.3 Documento Final de Tesis",8/12/26,9/11/26,23,0,0,1,,18,4.3,,,,,
+20,"  Proyecto Completado",9/14/26,9/14/26,0,0,0,1,,19,4.4,,,"#000000",,
+
+
+ID,Name,Default role,e-mail,Phone,Standard rate,Total cost,Total load
+0,Luis Gerardo,Default:1,,,0,0,8.0
